@@ -25,8 +25,8 @@
             "verb": "POST",
             "body": "",
             "format": "json",
-            "useJwt": false,
-            "timeout": 2000
+            "useJwt": true,
+            "timeout": 10000
         }
     },
     "configurationArguments": {
@@ -37,7 +37,7 @@
             "body": "",
             "format": "json",
             "useJwt": false,
-            "timeout": 2000
+            "timeout": 10000
        },
        "publish": {
            "url": "https://ap-sms.herokuapp.com/journeybuilder/publish",
@@ -45,7 +45,7 @@
             "body": "",
             "format": "json",
             "useJwt": false,
-            "timeout": 2000
+            "timeout": 10000
        },
        "validate": {
            "url": "https://ap-sms.herokuapp.com/journeybuilder/validate",
@@ -53,7 +53,7 @@
             "body": "",
             "format": "json",
             "useJwt": false,
-            "timeout": 2000
+            "timeout": 10000
        },
        "stop": {
            "url": "https://ap-sms.herokuapp.com/journeybuilder/stop",
@@ -61,7 +61,7 @@
             "body": "",
             "format": "json",
             "useJwt": false,
-            "timeout": 2000
+            "timeout": 10000
        }
     },
     "wizardSteps": [
